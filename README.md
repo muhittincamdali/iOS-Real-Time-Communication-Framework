@@ -198,9 +198,34 @@ let manager = RealTimeCommunicationManager()
 manager.configuration = config
 ```
 
+## 📊 Project Statistics
+
+<div align="center">
+
+[![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/iOS-Real-Time-Communication-Framework?style=social)](https://github.com/muhittincamdali/iOS-Real-Time-Communication-Framework/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/iOS-Real-Time-Communication-Framework?style=social)](https://github.com/muhittincamdali/iOS-Real-Time-Communication-Framework/network)
+[![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/iOS-Real-Time-Communication-Framework)](https://github.com/muhittincamdali/iOS-Real-Time-Communication-Framework/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOS-Real-Time-Communication-Framework)](https://github.com/muhittincamdali/iOS-Real-Time-Communication-Framework/pulls)
+
+</div>
+
+## 🌟 Stargazers
+
+[![Stargazers repo roster for @muhittincamdali/iOS-Real-Time-Communication-Framework](https://reporoster.com/stars/muhittincamdali/iOS-Real-Time-Communication-Framework)](https://github.com/muhittincamdali/iOS-Real-Time-Communication-Framework/stargazers)
+
+## 🙏 Acknowledgments
+
+- Apple for the excellent iOS communication APIs
+- The Swift community for inspiration and feedback
+- All contributors who help improve this framework
+- Real-time communication best practices
+- WebSocket and networking standards
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+**⭐ Star this repository if it helped you!**
 
 ## 🤝 Contributing
 
