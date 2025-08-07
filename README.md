@@ -808,12 +808,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/iOS-Real-Time-Communication-Framework?style=social)](https://github.com/muhittincamdali/iOS-Real-Time-Communication-Framework/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/iOS-Real-Time-Communication-Framework?style=social)](https://github.com/muhittincamdali/iOS-Real-Time-Communication-Framework/network)
-[![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/iOS-Real-Time-Communication-Framework)](https://github.com/muhittincamdali/iOS-Real-Time-Communication-Framework/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOS-Real-Time-Communication-Framework)](https://github.com/muhittincamdali/iOS-Real-Time-Communication-Framework/pulls)
-[![GitHub contributors](https://img.shields.io/github/contributors/muhittincamdali/iOS-Real-Time-Communication-Framework)](https://github.com/muhittincamdali/iOS-Real-Time-Communication-Framework/graphs/contributors)
-[![GitHub last commit](https://img.shields.io/github/last-commit/muhittincamdali/iOS-Real-Time-Communication-Framework)](https://github.com/muhittincamdali/iOS-Real-Time-Communication-Framework/commits/master)
+![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/iOS-Real-Time-Communication-Framework?style=flat-square&logo=github)
+[![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/iOS-Real-Time-Communication-Framework?style=flat-square&logo=github)](https://github.com/muhittincamdali/iOS-Real-Time-Communication-Framework/network)
+[![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/iOS-Real-Time-Communication-Framework?style=flat-square&logo=github)](https://github.com/muhittincamdali/iOS-Real-Time-Communication-Framework/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOS-Real-Time-Communication-Framework?style=flat-square&logo=github)](https://github.com/muhittincamdali/iOS-Real-Time-Communication-Framework/pulls)
+[![GitHub contributors](https://img.shields.io/github/contributors/muhittincamdali/iOS-Real-Time-Communication-Framework?style=flat-square&logo=github)](https://github.com/muhittincamdali/iOS-Real-Time-Communication-Framework/graphs/contributors)
+[![GitHub last commit](https://img.shields.io/github/last-commit/muhittincamdali/iOS-Real-Time-Communication-Framework?style=flat-square&logo=github)](https://github.com/muhittincamdali/iOS-Real-Time-Communication-Framework/commits/master)
 
 </div>
 
