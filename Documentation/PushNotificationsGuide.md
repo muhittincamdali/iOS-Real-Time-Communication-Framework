@@ -1,5 +1,57 @@
 # Push Notifications Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [Push Notifications Guide](#push-notifications-guide)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Basic Setup](#basic-setup)
+- [APNs Setup](#apns-setup)
+  - [Apple Developer Setup](#apple-developer-setup)
+  - [APNs Configuration](#apns-configuration)
+  - [APNs Registration](#apns-registration)
+- [FCM Setup](#fcm-setup)
+  - [Firebase Setup](#firebase-setup)
+  - [FCM Configuration](#fcm-configuration)
+  - [FCM Registration](#fcm-registration)
+- [Notification Registration](#notification-registration)
+  - [Permission Request](#permission-request)
+  - [Custom Registration](#custom-registration)
+- [Notification Handling](#notification-handling)
+  - [Foreground Notifications](#foreground-notifications)
+  - [Background Notifications](#background-notifications)
+  - [Notification Tap Handling](#notification-tap-handling)
+- [Rich Notifications](#rich-notifications)
+  - [Rich Notification Setup](#rich-notification-setup)
+  - [Creating Rich Notifications](#creating-rich-notifications)
+  - [Notification Categories](#notification-categories)
+- [Silent Notifications](#silent-notifications)
+  - [Silent Notification Setup](#silent-notification-setup)
+  - [Handling Silent Notifications](#handling-silent-notifications)
+- [Notification Actions](#notification-actions)
+  - [Action Handling](#action-handling)
+  - [Custom Actions](#custom-actions)
+- [Badge Management](#badge-management)
+  - [Badge Operations](#badge-operations)
+  - [Badge Synchronization](#badge-synchronization)
+- [Security](#security)
+  - [Token Security](#token-security)
+  - [Certificate Pinning](#certificate-pinning)
+- [Best Practices](#best-practices)
+  - [1. Permission Management](#1-permission-management)
+  - [2. Token Management](#2-token-management)
+  - [3. Notification Content](#3-notification-content)
+  - [4. Background Processing](#4-background-processing)
+  - [5. User Experience](#5-user-experience)
+  - [6. Testing](#6-testing)
+- [Examples](#examples)
+  - [Complete Push Notification Implementation](#complete-push-notification-implementation)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Push Notifications module provides comprehensive push notification capabilities for iOS applications, including Apple Push Notification service (APNs) and Firebase Cloud Messaging (FCM). This guide covers everything you need to know about implementing push notifications in your iOS app.

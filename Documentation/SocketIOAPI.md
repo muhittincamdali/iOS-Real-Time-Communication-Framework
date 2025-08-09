@@ -1,5 +1,46 @@
 # Socket.IO API
 
+<!-- TOC START -->
+## Table of Contents
+- [Socket.IO API](#socketio-api)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [SocketIOClient](#socketioclient)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [Connection Management](#connection-management)
+  - [Event Handling](#event-handling)
+  - [Room Management](#room-management)
+  - [Status Monitoring](#status-monitoring)
+- [SocketIOConfiguration](#socketioconfiguration)
+  - [Properties](#properties)
+  - [Example](#example)
+- [SocketIOEvent](#socketioevent)
+  - [Properties](#properties)
+  - [Initialization](#initialization)
+- [SocketIOEventHandler](#socketioeventhandler)
+  - [Initialization](#initialization)
+  - [Event Registration](#event-registration)
+  - [Event Emission](#event-emission)
+- [SocketIORoom](#socketioroom)
+  - [Properties](#properties)
+  - [Initialization](#initialization)
+- [SocketIONamespace](#socketionamespace)
+  - [Properties](#properties)
+  - [Initialization](#initialization)
+- [SocketIOError](#socketioerror)
+  - [Error Types](#error-types)
+  - [Properties](#properties)
+  - [Example](#example)
+- [SocketIOStatus](#socketiostatus)
+  - [Status Types](#status-types)
+  - [Example](#example)
+- [SocketIOTransport](#socketiotransport)
+  - [Transport Types](#transport-types)
+- [Complete Example](#complete-example)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Socket.IO API provides comprehensive Socket.IO client capabilities for iOS applications. This document covers all public interfaces, classes, and methods available in the Socket.IO module.

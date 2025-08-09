@@ -1,5 +1,57 @@
 # Firebase Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [Firebase Guide](#firebase-guide)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Basic Setup](#basic-setup)
+- [Firebase Setup](#firebase-setup)
+  - [Project Configuration](#project-configuration)
+  - [Configuration Options](#configuration-options)
+- [Realtime Database](#realtime-database)
+  - [Basic Database Operations](#basic-database-operations)
+  - [Real-time Listeners](#real-time-listeners)
+  - [Query Operations](#query-operations)
+  - [Transaction Operations](#transaction-operations)
+- [Cloud Messaging](#cloud-messaging)
+  - [Basic Setup](#basic-setup)
+  - [Sending Notifications](#sending-notifications)
+  - [Handling Notifications](#handling-notifications)
+  - [Topic Management](#topic-management)
+- [Authentication](#authentication)
+  - [User Authentication](#user-authentication)
+  - [Social Authentication](#social-authentication)
+  - [User Management](#user-management)
+- [Analytics](#analytics)
+  - [Basic Analytics](#basic-analytics)
+  - [User Properties](#user-properties)
+  - [Screen Tracking](#screen-tracking)
+- [Storage](#storage)
+  - [File Upload](#file-upload)
+  - [File Download](#file-download)
+  - [File Management](#file-management)
+- [Functions](#functions)
+  - [Call Functions](#call-functions)
+- [Performance](#performance)
+  - [Performance Monitoring](#performance-monitoring)
+- [Security](#security)
+  - [Security Rules](#security-rules)
+- [Best Practices](#best-practices)
+  - [1. Database Design](#1-database-design)
+  - [2. Authentication](#2-authentication)
+  - [3. Messaging](#3-messaging)
+  - [4. Storage](#4-storage)
+  - [5. Security](#5-security)
+  - [6. Performance](#6-performance)
+- [Examples](#examples)
+  - [Complete Firebase Implementation](#complete-firebase-implementation)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Firebase module provides comprehensive Firebase integration for iOS applications, including Realtime Database, Cloud Messaging, Authentication, and Analytics. This guide covers everything you need to know about implementing Firebase features in your iOS app.

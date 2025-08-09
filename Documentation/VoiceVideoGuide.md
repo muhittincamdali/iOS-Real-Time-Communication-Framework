@@ -1,5 +1,52 @@
 # Voice & Video Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [Voice & Video Guide](#voice-video-guide)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Basic Setup](#basic-setup)
+- [Voice Calls](#voice-calls)
+  - [Voice Call Setup](#voice-call-setup)
+  - [Starting Voice Calls](#starting-voice-calls)
+  - [Voice Call Events](#voice-call-events)
+- [Video Calls](#video-calls)
+  - [Video Call Setup](#video-call-setup)
+  - [Starting Video Calls](#starting-video-calls)
+  - [Video Call Events](#video-call-events)
+- [Call Management](#call-management)
+  - [Call Session Management](#call-session-management)
+  - [Call Participants](#call-participants)
+- [Media Handling](#media-handling)
+  - [Audio Management](#audio-management)
+  - [Video Management](#video-management)
+  - [Media Quality Control](#media-quality-control)
+- [Quality Control](#quality-control)
+  - [Bandwidth Management](#bandwidth-management)
+  - [Network Adaptation](#network-adaptation)
+- [Screen Sharing](#screen-sharing)
+  - [Screen Sharing Setup](#screen-sharing-setup)
+  - [Screen Sharing Events](#screen-sharing-events)
+- [Recording](#recording)
+  - [Call Recording](#call-recording)
+  - [Recording Management](#recording-management)
+- [Security](#security)
+  - [Encryption](#encryption)
+  - [Authentication](#authentication)
+- [Best Practices](#best-practices)
+  - [1. Call Quality](#1-call-quality)
+  - [2. User Experience](#2-user-experience)
+  - [3. Performance](#3-performance)
+  - [4. Security](#4-security)
+  - [5. Testing](#5-testing)
+- [Examples](#examples)
+  - [Complete Voice & Video Implementation](#complete-voice-video-implementation)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Voice & Video module provides comprehensive WebRTC-based voice and video calling capabilities for iOS applications. This guide covers everything you need to know about implementing high-quality voice and video communication in your iOS app.

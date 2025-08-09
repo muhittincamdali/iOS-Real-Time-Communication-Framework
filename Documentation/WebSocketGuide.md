@@ -1,5 +1,51 @@
 # WebSocket Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [WebSocket Guide](#websocket-guide)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Basic Setup](#basic-setup)
+- [Basic Configuration](#basic-configuration)
+  - [WebSocket Configuration Options](#websocket-configuration-options)
+  - [Advanced Configuration](#advanced-configuration)
+- [Connection Management](#connection-management)
+  - [Establishing Connection](#establishing-connection)
+  - [Connection Status Monitoring](#connection-status-monitoring)
+  - [Manual Reconnection](#manual-reconnection)
+- [Message Handling](#message-handling)
+  - [Sending Messages](#sending-messages)
+  - [Receiving Messages](#receiving-messages)
+  - [Message Queuing](#message-queuing)
+- [Error Handling](#error-handling)
+  - [Connection Errors](#connection-errors)
+  - [Message Errors](#message-errors)
+- [Security](#security)
+  - [SSL/TLS Configuration](#ssltls-configuration)
+  - [Certificate Pinning](#certificate-pinning)
+  - [Authentication](#authentication)
+- [Performance Optimization](#performance-optimization)
+  - [Connection Pooling](#connection-pooling)
+  - [Message Compression](#message-compression)
+  - [Memory Management](#memory-management)
+- [Best Practices](#best-practices)
+  - [1. Connection Management](#1-connection-management)
+  - [2. Message Handling](#2-message-handling)
+  - [3. Error Handling](#3-error-handling)
+  - [4. Security](#4-security)
+  - [5. Performance](#5-performance)
+  - [6. Testing](#6-testing)
+- [Troubleshooting](#troubleshooting)
+  - [Common Issues](#common-issues)
+  - [Debug Mode](#debug-mode)
+- [Examples](#examples)
+  - [Complete WebSocket Implementation](#complete-websocket-implementation)
+<!-- TOC END -->
+
+
 ## Overview
 
 The WebSocket module provides comprehensive real-time communication capabilities for iOS applications. This guide covers everything you need to know about implementing WebSocket connections in your iOS app.

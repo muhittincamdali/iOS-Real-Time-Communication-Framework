@@ -1,5 +1,46 @@
 # Monitoring API
 
+<!-- TOC START -->
+## Table of Contents
+- [Monitoring API](#monitoring-api)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [MonitoringManager](#monitoringmanager)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [Service Management](#service-management)
+- [AnalyticsManager](#analyticsmanager)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [Event Tracking](#event-tracking)
+  - [User Properties](#user-properties)
+  - [Session Management](#session-management)
+- [PerformanceManager](#performancemanager)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [Performance Monitoring](#performance-monitoring)
+  - [Performance Optimization](#performance-optimization)
+- [MetricsCollector](#metricscollector)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [Metrics Collection](#metrics-collection)
+  - [Metrics Retrieval](#metrics-retrieval)
+- [EventTracker](#eventtracker)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [Event Tracking](#event-tracking)
+- [HealthMonitor](#healthmonitor)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [Health Monitoring](#health-monitoring)
+- [MonitoringError](#monitoringerror)
+  - [Error Types](#error-types)
+  - [Properties](#properties)
+  - [Example](#example)
+- [Complete Example](#complete-example)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Monitoring API provides comprehensive monitoring and analytics capabilities for iOS applications using the Real-Time Communication Framework. This document covers all public interfaces, classes, and methods available in the Monitoring module.

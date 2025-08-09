@@ -1,5 +1,50 @@
 # Security Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [Security Guide](#security-guide)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Basic Setup](#basic-setup)
+- [Encryption](#encryption)
+  - [Data Encryption](#data-encryption)
+  - [End-to-End Encryption](#end-to-end-encryption)
+- [Authentication](#authentication)
+  - [User Authentication](#user-authentication)
+  - [Token Management](#token-management)
+- [Certificate Pinning](#certificate-pinning)
+  - [SSL Certificate Pinning](#ssl-certificate-pinning)
+  - [Public Key Pinning](#public-key-pinning)
+- [Secure Communication](#secure-communication)
+  - [TLS Configuration](#tls-configuration)
+  - [Secure WebSocket](#secure-websocket)
+- [Data Protection](#data-protection)
+  - [Data Encryption at Rest](#data-encryption-at-rest)
+  - [Keychain Integration](#keychain-integration)
+- [Key Management](#key-management)
+  - [Key Generation](#key-generation)
+  - [Key Rotation](#key-rotation)
+- [Audit & Logging](#audit-logging)
+  - [Security Logging](#security-logging)
+  - [Audit Trail](#audit-trail)
+- [Compliance](#compliance)
+  - [GDPR Compliance](#gdpr-compliance)
+  - [SOC 2 Compliance](#soc-2-compliance)
+- [Best Practices](#best-practices)
+  - [1. Encryption](#1-encryption)
+  - [2. Authentication](#2-authentication)
+  - [3. Certificate Pinning](#3-certificate-pinning)
+  - [4. Data Protection](#4-data-protection)
+  - [5. Audit & Compliance](#5-audit-compliance)
+  - [6. Testing](#6-testing)
+- [Examples](#examples)
+  - [Complete Security Implementation](#complete-security-implementation)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Security module provides comprehensive security features for iOS applications, including encryption, authentication, certificate pinning, and secure communication protocols. This guide covers everything you need to know about implementing security in your iOS app.

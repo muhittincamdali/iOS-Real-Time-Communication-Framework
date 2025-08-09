@@ -1,5 +1,45 @@
 # Configuration API
 
+<!-- TOC START -->
+## Table of Contents
+- [Configuration API](#configuration-api)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [ConfigurationManager](#configurationmanager)
+  - [Initialization](#initialization)
+  - [Configuration Management](#configuration-management)
+  - [Configuration Validation](#configuration-validation)
+  - [Configuration Persistence](#configuration-persistence)
+  - [Configuration Reset](#configuration-reset)
+- [RealTimeCommunicationConfiguration](#realtimecommunicationconfiguration)
+  - [Properties](#properties)
+  - [Example](#example)
+- [WebSocketConfiguration](#websocketconfiguration)
+  - [Properties](#properties)
+  - [Example](#example)
+- [SocketIOConfiguration](#socketioconfiguration)
+  - [Properties](#properties)
+  - [Example](#example)
+- [FirebaseConfiguration](#firebaseconfiguration)
+  - [Properties](#properties)
+  - [Example](#example)
+- [PushNotificationConfiguration](#pushnotificationconfiguration)
+  - [Properties](#properties)
+  - [Example](#example)
+- [VoiceVideoConfiguration](#voicevideoconfiguration)
+  - [Properties](#properties)
+  - [Example](#example)
+- [SecurityConfiguration](#securityconfiguration)
+  - [Properties](#properties)
+  - [Example](#example)
+- [ConfigurationError](#configurationerror)
+  - [Error Types](#error-types)
+  - [Properties](#properties)
+  - [Example](#example)
+- [Complete Example](#complete-example)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Configuration API provides comprehensive configuration management for iOS applications using the Real-Time Communication Framework. This document covers all public interfaces, classes, and methods available in the Configuration module.

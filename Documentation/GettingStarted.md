@@ -1,5 +1,41 @@
 # Getting Started with iOS Real-Time Communication Framework
 
+<!-- TOC START -->
+## Table of Contents
+- [Getting Started with iOS Real-Time Communication Framework](#getting-started-with-ios-real-time-communication-framework)
+- [📋 Prerequisites](#-prerequisites)
+- [🚀 Installation](#-installation)
+  - [Swift Package Manager (Recommended)](#swift-package-manager-recommended)
+  - [CocoaPods](#cocoapods)
+- [🔧 Basic Setup](#-basic-setup)
+  - [1. Import the Framework](#1-import-the-framework)
+  - [2. Initialize the Communication Manager](#2-initialize-the-communication-manager)
+  - [3. Configure Basic Settings](#3-configure-basic-settings)
+- [📱 Quick Examples](#-quick-examples)
+  - [WebSocket Connection](#websocket-connection)
+  - [Send Real-Time Message](#send-real-time-message)
+  - [Push Notifications](#push-notifications)
+- [🏗️ Architecture Overview](#-architecture-overview)
+  - [Core Components](#core-components)
+- [🔒 Security Configuration](#-security-configuration)
+  - [SSL/TLS Configuration](#ssltls-configuration)
+  - [Authentication](#authentication)
+- [📊 Analytics Integration](#-analytics-integration)
+  - [Custom Analytics](#custom-analytics)
+- [🧪 Testing](#-testing)
+  - [Unit Tests](#unit-tests)
+  - [Performance Tests](#performance-tests)
+- [🔧 Configuration Options](#-configuration-options)
+  - [Communication Configuration](#communication-configuration)
+  - [Advanced Configuration](#advanced-configuration)
+- [📱 iOS Integration](#-ios-integration)
+  - [App Delegate Setup](#app-delegate-setup)
+  - [SwiftUI Integration](#swiftui-integration)
+- [🚀 Next Steps](#-next-steps)
+- [📞 Support](#-support)
+<!-- TOC END -->
+
+
 Welcome to the iOS Real-Time Communication Framework! This guide will help you get started with integrating real-time communication features into your iOS applications.
 
 ## 📋 Prerequisites

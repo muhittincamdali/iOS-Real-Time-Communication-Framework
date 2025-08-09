@@ -1,5 +1,56 @@
 # Voice & Video API
 
+<!-- TOC START -->
+## Table of Contents
+- [Voice & Video API](#voice-video-api)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [VoiceVideoManager](#voicevideomanager)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [Service Management](#service-management)
+- [VoiceVideoConfiguration](#voicevideoconfiguration)
+  - [Properties](#properties)
+  - [Example](#example)
+- [WebRTCVoiceCall](#webrtcvoicecall)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [Call Management](#call-management)
+  - [Call Events](#call-events)
+- [WebRTCVideoCall](#webrtcvideocall)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [Call Management](#call-management)
+  - [Video Events](#video-events)
+- [CallSessionManager](#callsessionmanager)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [Session Management](#session-management)
+  - [Participant Events](#participant-events)
+- [MediaDeviceManager](#mediadevicemanager)
+  - [Initialization](#initialization)
+  - [Audio Management](#audio-management)
+  - [Video Management](#video-management)
+- [CallQualityManager](#callqualitymanager)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [Quality Monitoring](#quality-monitoring)
+- [VoiceVideoError](#voicevideoerror)
+  - [Error Types](#error-types)
+  - [Properties](#properties)
+  - [Example](#example)
+- [Enums](#enums)
+  - [CallType](#calltype)
+  - [CallState](#callstate)
+  - [VideoCallState](#videocallstate)
+  - [AudioCodec](#audiocodec)
+  - [VideoCodec](#videocodec)
+  - [VideoResolution](#videoresolution)
+  - [NetworkCondition](#networkcondition)
+- [Complete Example](#complete-example)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Voice & Video API provides comprehensive WebRTC-based voice and video calling capabilities for iOS applications. This document covers all public interfaces, classes, and methods available in the Voice & Video module.

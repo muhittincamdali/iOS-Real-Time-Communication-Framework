@@ -1,5 +1,58 @@
 # Firebase API
 
+<!-- TOC START -->
+## Table of Contents
+- [Firebase API](#firebase-api)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [FirebaseManager](#firebasemanager)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [Service Management](#service-management)
+- [FirebaseConfiguration](#firebaseconfiguration)
+  - [Properties](#properties)
+  - [Example](#example)
+- [FirebaseRealtimeDatabase](#firebaserealtimedatabase)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [Data Operations](#data-operations)
+  - [Real-time Listeners](#real-time-listeners)
+  - [Query Operations](#query-operations)
+- [FirebaseCloudMessaging](#firebasecloudmessaging)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [Token Management](#token-management)
+  - [Sending Notifications](#sending-notifications)
+  - [Topic Management](#topic-management)
+  - [Notification Handling](#notification-handling)
+- [FirebaseAuthentication](#firebaseauthentication)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [User Authentication](#user-authentication)
+  - [Social Authentication](#social-authentication)
+  - [User Management](#user-management)
+- [FirebaseAnalytics](#firebaseanalytics)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [Event Logging](#event-logging)
+  - [User Properties](#user-properties)
+  - [Screen Tracking](#screen-tracking)
+- [FirebaseStorage](#firebasestorage)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [File Operations](#file-operations)
+- [FirebaseFunctions](#firebasefunctions)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [Function Calls](#function-calls)
+- [FirebaseError](#firebaseerror)
+  - [Error Types](#error-types)
+  - [Properties](#properties)
+  - [Example](#example)
+- [Complete Example](#complete-example)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Firebase API provides comprehensive Firebase integration for iOS applications, including Realtime Database, Cloud Messaging, Authentication, and Analytics. This document covers all public interfaces, classes, and methods available in the Firebase module.

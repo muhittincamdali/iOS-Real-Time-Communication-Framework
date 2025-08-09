@@ -1,5 +1,56 @@
 # Socket.IO Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [Socket.IO Guide](#socketio-guide)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Basic Setup](#basic-setup)
+- [Basic Configuration](#basic-configuration)
+  - [Socket.IO Configuration Options](#socketio-configuration-options)
+  - [Advanced Configuration](#advanced-configuration)
+- [Connection Management](#connection-management)
+  - [Establishing Connection](#establishing-connection)
+  - [Connection Status Monitoring](#connection-status-monitoring)
+  - [Manual Reconnection](#manual-reconnection)
+  - [Disconnection](#disconnection)
+- [Event Handling](#event-handling)
+  - [Emitting Events](#emitting-events)
+  - [Listening for Events](#listening-for-events)
+  - [Event Handler Management](#event-handler-management)
+- [Room Management](#room-management)
+  - [Joining Rooms](#joining-rooms)
+  - [Leaving Rooms](#leaving-rooms)
+  - [Room Events](#room-events)
+- [Authentication](#authentication)
+  - [Token-based Authentication](#token-based-authentication)
+  - [Custom Authentication](#custom-authentication)
+- [Error Handling](#error-handling)
+  - [Connection Errors](#connection-errors)
+  - [Event Errors](#event-errors)
+- [Performance Optimization](#performance-optimization)
+  - [Message Compression](#message-compression)
+  - [Connection Pooling](#connection-pooling)
+  - [Memory Management](#memory-management)
+- [Best Practices](#best-practices)
+  - [1. Connection Management](#1-connection-management)
+  - [2. Event Handling](#2-event-handling)
+  - [3. Room Management](#3-room-management)
+  - [4. Error Handling](#4-error-handling)
+  - [5. Security](#5-security)
+  - [6. Performance](#6-performance)
+  - [7. Testing](#7-testing)
+- [Troubleshooting](#troubleshooting)
+  - [Common Issues](#common-issues)
+  - [Debug Mode](#debug-mode)
+- [Examples](#examples)
+  - [Complete Socket.IO Implementation](#complete-socketio-implementation)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Socket.IO module provides a complete Socket.IO client implementation for iOS applications. This guide covers everything you need to know about implementing Socket.IO connections and real-time communication.

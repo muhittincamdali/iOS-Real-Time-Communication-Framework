@@ -1,5 +1,51 @@
 # Push Notifications API
 
+<!-- TOC START -->
+## Table of Contents
+- [Push Notifications API](#push-notifications-api)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [PushNotificationManager](#pushnotificationmanager)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [Permission Management](#permission-management)
+  - [Registration](#registration)
+  - [Event Handling](#event-handling)
+- [PushNotificationConfiguration](#pushnotificationconfiguration)
+  - [Properties](#properties)
+  - [Example](#example)
+- [APNsManager](#apnsmanager)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [Registration](#registration)
+  - [Token Handling](#token-handling)
+  - [Notification Handling](#notification-handling)
+- [FCMManager](#fcmmanager)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [Registration](#registration)
+  - [Token Management](#token-management)
+  - [Sending Notifications](#sending-notifications)
+  - [Topic Management](#topic-management)
+- [RichNotificationManager](#richnotificationmanager)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [Creating Rich Notifications](#creating-rich-notifications)
+  - [Notification Categories](#notification-categories)
+- [NotificationAction](#notificationaction)
+  - [Properties](#properties)
+  - [Initialization](#initialization)
+- [NotificationCategory](#notificationcategory)
+  - [Properties](#properties)
+  - [Initialization](#initialization)
+- [PushNotificationError](#pushnotificationerror)
+  - [Error Types](#error-types)
+  - [Properties](#properties)
+  - [Example](#example)
+- [Complete Example](#complete-example)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Push Notifications API provides comprehensive push notification capabilities for iOS applications, including Apple Push Notification service (APNs) and Firebase Cloud Messaging (FCM). This document covers all public interfaces, classes, and methods available in the Push Notifications module.

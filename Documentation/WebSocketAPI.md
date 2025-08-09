@@ -1,5 +1,44 @@
 # WebSocket API
 
+<!-- TOC START -->
+## Table of Contents
+- [WebSocket API](#websocket-api)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [WebSocketClient](#websocketclient)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [Connection Management](#connection-management)
+  - [Message Handling](#message-handling)
+  - [Event Handling](#event-handling)
+- [WebSocketConfiguration](#websocketconfiguration)
+  - [Properties](#properties)
+  - [Example](#example)
+- [WebSocketMessage](#websocketmessage)
+  - [Properties](#properties)
+  - [Initialization](#initialization)
+  - [Message Types](#message-types)
+- [WebSocketConnection](#websocketconnection)
+  - [Properties](#properties)
+- [WebSocketConnectionManager](#websocketconnectionmanager)
+  - [Initialization](#initialization)
+  - [Connection Management](#connection-management)
+  - [Connection Monitoring](#connection-monitoring)
+- [WebSocketEventHandler](#websocketeventhandler)
+  - [Initialization](#initialization)
+  - [Event Registration](#event-registration)
+  - [Event Emission](#event-emission)
+- [WebSocketError](#websocketerror)
+  - [Error Types](#error-types)
+  - [Properties](#properties)
+  - [Example](#example)
+- [WebSocketStatus](#websocketstatus)
+  - [Status Types](#status-types)
+  - [Example](#example)
+- [Complete Example](#complete-example)
+<!-- TOC END -->
+
+
 ## Overview
 
 The WebSocket API provides comprehensive real-time communication capabilities for iOS applications. This document covers all public interfaces, classes, and methods available in the WebSocket module.

@@ -1,5 +1,41 @@
 # RealTimeCommunicationManager API
 
+<!-- TOC START -->
+## Table of Contents
+- [RealTimeCommunicationManager API](#realtimecommunicationmanager-api)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [RealTimeCommunicationManager](#realtimecommunicationmanager)
+  - [Initialization](#initialization)
+  - [Configuration](#configuration)
+  - [Connection Management](#connection-management)
+  - [Message Handling](#message-handling)
+  - [Message Reception](#message-reception)
+  - [Connection Status](#connection-status)
+  - [Room Management](#room-management)
+  - [Push Notifications](#push-notifications)
+  - [Message Queue](#message-queue)
+- [CommunicationConfiguration](#communicationconfiguration)
+  - [Properties](#properties)
+  - [Example](#example)
+- [CommunicationConnection](#communicationconnection)
+  - [Properties](#properties)
+  - [Methods](#methods)
+- [CommunicationMessage](#communicationmessage)
+  - [Properties](#properties)
+  - [Initialization](#initialization)
+  - [Message Types](#message-types)
+- [CommunicationError](#communicationerror)
+  - [Error Types](#error-types)
+  - [Properties](#properties)
+  - [Example](#example)
+- [ConnectionStatus](#connectionstatus)
+  - [Status Types](#status-types)
+  - [Example](#example)
+- [Complete Example](#complete-example)
+<!-- TOC END -->
+
+
 ## Overview
 
 The RealTimeCommunicationManager API provides the core functionality for real-time communication in iOS applications. This document covers all public interfaces, classes, and methods available in the RealTimeCommunicationManager module.
