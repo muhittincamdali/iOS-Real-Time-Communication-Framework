@@ -1,4 +1,5 @@
 # ⚡ iOS Real-Time Communication Framework
+[![CI](https://github.com/muhittincamdali/iOS-Real-Time-Communication-Framework/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/muhittincamdali/iOS-Real-Time-Communication-Framework/actions/workflows/ci.yml)
 
 <!-- TOC START -->
 ## Table of Contents
