@@ -823,3 +823,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🌟 Stargazers
 
 [![Stargazers repo roster for @muhittincamdali/iOS-Real-Time-Communication-Framework](https://starchart.cc/muhittincamdali/iOS-Real-Time-Communication-Framework.svg)](https://github.com/muhittincamdali/iOS-Real-Time-Communication-Framework/stargazers)
+## 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=muhittincamdali/iOS-Real-Time-Communication-Framework&type=Date)](https://star-history.com/#muhittincamdali/iOS-Real-Time-Communication-Framework&Date)
+
