@@ -1,0 +1,5 @@
+warning: 'ios-real-time-communication-framework': Source files for target RealTimeCommunicationAnalytics should be located under 'Sources/RealTimeCommunicationAnalytics', or a custom sources path can be set with the 'path' property in Package.swift
+warning: 'ios-real-time-communication-framework': Source files for target RealTimeCommunicationCoreTests should be located under 'Tests/RealTimeCommunicationCoreTests', or a custom sources path can be set with the 'path' property in Package.swift
+warning: 'ios-real-time-communication-framework': Source files for target RealTimeCommunicationAnalyticsTests should be located under 'Tests/RealTimeCommunicationAnalyticsTests', or a custom sources path can be set with the 'path' property in Package.swift
+warning: 'ios-real-time-communication-framework': Source files for target RealTimeCommunicationPerformanceTests should be located under 'Tests/RealTimeCommunicationPerformanceTests', or a custom sources path can be set with the 'path' property in Package.swift
+error: 'ios-real-time-communication-framework': target 'RealTimeCommunicationAnalytics' referenced in product 'RealTimeCommunicationAnalytics' is empty
